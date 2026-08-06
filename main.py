@@ -6,7 +6,20 @@ from auth import router as auth_router
 from leave import router as leave_router
 from utils import initialize_storage
 
+from dotenv import load_dotenv
 import os
+
+# Load environment variables from .env
+load_dotenv()
+
+# Read values from .env
+APP_NAME = os.getenv("APP_NAME")
+DEBUG = os.getenv("DEBUG")
+API_URL = os.getenv("API_URL")
+
+print("APP_NAME:", APP_NAME)
+print("DEBUG:", DEBUG)
+print("API_URL:", API_URL)
 
 app = FastAPI(
     title="LeaveTrack Backend",
