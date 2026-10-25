@@ -1,30 +1,5 @@
 [
     {
-        "uid": "H2sUrNC2ePMUM7NyMG09U8SrjGr2",
-        "email": "aiwalebhaiy13@gmail.com",
-        "name": "Micky",
-        "department": "Information Technology",
-        "designation": "Software Developer",
-        "role": "admin",
-        "annual_leave": 24,
-        "sick_leave": 10,
-        "casual_leave": 6
-    },
-    {
-        "uid": "oeFFnMxvEifxFqT2ESj62YBMfUt1",
-        "employeeId": "",
-        "name": "mukul",
-        "email": "aiwalebhaiy14@gmail.com",
-        "department": "Marketing",
-        "designation": "Marketing Executive",
-        "role": "employee",
-        "annual_leave": 24,
-        "sick_leave": 10,
-        "casual_leave": 6,
-        "emergency_leave": 5,
-        "status": "Active"
-    },
-    {
         "uid": "TK5tpE633oU1TTF5AEfYFQCI5Jx1",
         "employeeId": "",
         "name": "dhruv sharma",
